@@ -20,8 +20,8 @@ module.exports = {
     message.channel
       .send({ embeds: [embed] })
       .then(function (message, str) {
-        message.react("👍");
-        message.react("👎");
+        message.react("<:8750like:954732567561666622>");
+        message.react("<:5216like:954732567930761216>");
       })
       .catch(function () {});
   },
